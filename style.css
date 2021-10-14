@@ -1,0 +1,145 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.awesome-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-links a, .awesome-header + p {
+    font-size: 18px;
+    color: #e5e7e8;
+    text-decoration: none;   
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.header .nav ,
+ .header-links ,
+ .hero ,
+ .box-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.awesome-header {
+    flex: 1 0 0;
+}
+
+.hero {
+    gap: 30px;
+}
+.image-placeholder {
+    background-color: #4b4d50;
+    padding: 40px;
+    color: #f9faf8;
+
+}
+header {
+    padding: 5px 0;
+}
+.sign-up-button {
+    background-color: #3882f9 ;
+    width: 60px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 1vh 0 0 1vw;
+}
+.header-links {
+    gap: 100px;
+}
+.header {
+    margin: 0 auto;
+}
+
+
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f9;
+    border-radius: 10px;
+
+}
+.box-images {
+    justify-content: space-between;
+    margin: 0 10vw;
+    
+}
+
+.main-header{
+    margin: 3vh auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.box + p {
+    color: #4b4d50;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+}
+.quote {
+    
+    
+    background-color: #e5e7eb;
+}
+blockquote{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 5vh 15vw 5vh 15vw;
+    padding: 4vh 2vw ;
+
+}
+.quoter {
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.call {
+    background-color: #3882f6;
+    display: flex;
+    padding: 1vh 1vw;
+    margin: 0 20vw;
+    border-radius: 10px;
+    align-items: center;
+    color: #f9faf8;
+}
+.call-sign-up {
+    border: 3px solid whitesmoke;
+    padding: 3px 20px;
+    border-radius: 10px;
+}
+ footer {
+    background-color: #1f2937;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.copyright {
+    color: #f9faf8;
+    
+    padding: 10px;
+    
+}
